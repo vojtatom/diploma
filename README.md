@@ -2,6 +2,13 @@
 
 Repo for diploma thesis materials, texts, and resources concerning urban data vizualization.
 
+## Sections
+
+* [texts](texts/README.md)
+* [formats](texts/formats.md)
+* [classes](texts/classes.md)
+* [resources](resources.md)
+
 ---
 
 ## The assignment (in czech):
@@ -21,10 +28,6 @@ Navrhněte prototyp aplikace umožňující interaktivní zpracování urbanisti
 
 ---
 
-## Sections
-
-* [texts](texts/README.md)
-* [resources](resources.md)
 
 
 
