@@ -7,6 +7,8 @@ Based on the analysis bellow, there are 4 main classes of used formats:
 * GeoJson
 * DGN or DWG
 
++ https://www.koncepcebim.cz/koncepce
+
 ---
 ## 3D models 
 
