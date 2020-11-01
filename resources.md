@@ -1,6 +1,10 @@
 # Resources
 
 ## Articles
+* Urban Informatics (Foth et al.)
+* Urban Computing (Kindberg et al., 2007)
+* Participatory Sensing (Burke et al.)
+* Street Computing: Towards an Integrated Open Data Application Programming Interface (API) for Cities
 * Geovisualization with immersive virtual environments in theory and practice https://doi.org/10.1080/17538947.2017.1404150
 * Three-dimensional CityGML building models in mobile augmented reality: a smartphone-based pose tracking system https://doi.org/10.1080/17538947.2020.1733680
 * Evaluating the geometric aspects of integrating BIM data into city models https://doi.org/10.1080/14498596.2019.1636722

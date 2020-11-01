@@ -18,6 +18,9 @@ In making:
 
 ---
 
+
+
+
 ## The assignment (in czech):
 
 Navrhněte prototyp aplikace umožňující interaktivní zpracování urbanistických dat za účelem vytváření vizualizace prezentované formou širokoúhlé projekce:
