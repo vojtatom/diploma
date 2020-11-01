@@ -1,12 +1,11 @@
 # Formats
-Based on the analysis bellow, there are 4 main classes of used formats:
+Based on the analysis bellow, there are 5 main classes of used formats:
 * ArcGis outputs: DBF + SHP + PRJ
 * CityGML or CityJSON
 * GeoJson
 * DGN or DWG
 
-+ BIM https://www.koncepcebim.cz/koncepce
-+ IFC https://www.bimfo.cz/Aktuality/Myty-o-BIM-Co-je-a-co-neni-IFC.aspx 
++ BIM https://www.koncepcebim.cz/koncepce + IFC https://www.bimfo.cz/Aktuality/Myty-o-BIM-Co-je-a-co-neni-IFC.aspx 
 
 
 TODO find more cities and describe their system of opendata + add some formats bellow.
