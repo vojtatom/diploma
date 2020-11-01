@@ -7,7 +7,8 @@ Based on the analysis bellow, there are 4 main classes of used formats:
 * GeoJson
 * DGN or DWG
 
-+ https://www.koncepcebim.cz/koncepce
++ BIM https://www.koncepcebim.cz/koncepce
++ IFC https://www.bimfo.cz/Aktuality/Myty-o-BIM-Co-je-a-co-neni-IFC.aspx 
 
 ---
 ## 3D models 
