@@ -4,10 +4,17 @@ Repo for diploma thesis materials, texts, and resources concerning urban data vi
 
 ## Sections
 
-* [texts](texts/README.md)
+Written sections:
+
+* [intro](texts/README.md)
+* [data sources](texts/datasource.md)
+
+
+In making:
+
 * [formats](texts/formats.md)
 * [classes](texts/classes.md)
-* [resources](resources.md)
+* [stuff for later](resources.md)
 
 ---
 
