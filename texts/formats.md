@@ -1,6 +1,4 @@
 # Formats
-List of formats 
-
 Based on the analysis bellow, there are 4 main classes of used formats:
 * ArcGis outputs: DBF + SHP + PRJ
 * CityGML or CityJSON
@@ -10,7 +8,12 @@ Based on the analysis bellow, there are 4 main classes of used formats:
 + BIM https://www.koncepcebim.cz/koncepce
 + IFC https://www.bimfo.cz/Aktuality/Myty-o-BIM-Co-je-a-co-neni-IFC.aspx 
 
+
+TODO find more cities and describe their system of opendata + add some formats bellow.
+
 ---
+State of opendata for Prague:
+
 ## 3D models 
 
 The available 3D models can be conceptually divided into three catheories - either we talk about buildings, briges or other human-made features, then there are trees and flora in general, and the last cathegory is the terrain.
