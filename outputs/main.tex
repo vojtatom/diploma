@@ -1,0 +1,92 @@
+\documentclass[10pt,twocolumn]{article}
+\PassOptionsToPackage{svgnames}{xcolor}
+%\renewcommand{\thesubsection}{\Roman{subsection}} 
+%\renewcommand{\thesubsubsection}{\thesubsection.\Roman{subsubsection}}
+\usepackage{titlesec}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{xevlna}
+\usepackage{paracol}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage[disable]{todonotes}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumerate}
+\usepackage{appendix}
+\usepackage{fancyvrb}
+\usepackage{pagecolor}
+\usepackage[pages=some]{background}
+\usepackage[svgnames]{xcolor}
+\usepackage[czech, czechkw, linesnumbered]{algorithm2e}
+\usepackage{enumitem}
+\SetLabelAlign{myleft}{\hss\rlap{#1}}
+\newlist{where}{description}{1}
+\setlist[where]{labelwidth=0.25cm,labelsep=3.2em,
+                        leftmargin=!,align=myleft,font=\normalfont}
+
+\newlist{wherelong}{description}{1}
+\setlist[wherelong]{leftmargin=3.2em, font=\normalfont}
+                    
+\widowpenalty10000
+\clubpenalty10000
+
+\setlength{\marginparwidth}{2cm}
+\usepackage[most]{tcolorbox}
+
+
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+}
+\def\colbg{%
+    \begin{tikzpicture}
+    \fill[black] (0,0) rectangle (\paperwidth,\paperheight);
+    \end{tikzpicture}}%
+
+\backgroundsetup{scale=1,color=black,opacity=1,contents=\colbg,
+  angle=0,position=current page.south,nodeanchor=south}
+
+
+\usepackage{enumitem}
+\setlist{noitemsep}
+%\usepackage{natbib}
+%\bibliographystyle{agsm}
+\bibliographystyle{ieeetr}
+
+\author{Vojtěch Tomas\\
+    \href{mailto:tomasvo1@fit.cvut.cz}{tomasvo1@fel.cvut.cz}}
+\title{Metacity Concept}
+\date{}
+
+\begin{document}
+    
+\maketitle
+
+%\begin{abstract}
+%Short introduction to subject of the paper \ldots 
+%\end{abstract}
+
+This document describes the concept of a framework for urban visualization. The goal is to develop a toolkit that would streamline the urban data visualization pipeline. As of now, the main goal is to shape the actual purpose and design of the framework. 
+
+
+\input{intro}
+\input{apps}
+\input{data}
+\input{analysis}
+\input{design}
+
+
+
+\bibliography{sources}
+
+\end{document}

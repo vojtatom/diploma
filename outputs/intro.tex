@@ -1,0 +1,46 @@
+\section{Intro}
+\textit{Why should we do this?}
+
+\paragraph{}The first natural things question is, why should we care about the urban data? Why do we bother coming up with creative ways to present the data models publicly? We are talking about the data describing city buildings, building layouts, networks, public transport, etc. 
+
+\subsection{The Loop}
+
+All plans and future changes are made and approved based on the models derived from the urban data. There is no guarantee that the models are correct; complex models can be just as useful as the simple ones. The models help us answer questions.
+
+As the city evolves, people feel the effects of past decisions. As they adapt, new data is generated, which can help build newer, better models. Looking at this situation from the opposite perspective, it is in the citizens' best interest to influence the decision-making process in their favour. 
+
+The input produced by the citizens doesn't have to be limited just to the generated urban data. Local authorities should strive for more interaction between the city administration and the public. There is a platform required for that, which wouldn't just inform but also allow for interaction in the opposite direction. 
+
+Taking a step back, we can try to extend the group of people who are part of this process --- the stakeholders also include the developers. Their perspective is slightly different; there is no single obvious answer to what developers are interested in. The key fact is they have a financial motivation to keep the buildings used and active. The prosperity of the buildings directly relates to what is located in the property's surroundings. This is still a pretty broad field --- it can include services, the economic situation in the area, transport, housing situation, etc. 
+
+\subsection{Urban Data}
+In recent years, cities have become a huge source of various data. The urban data usually includes building metadata, street layouts, public transport information, layouts of the power network, noise maps, socio-economic maps, etc. The data is usually freely accessible in a format that is obscure for the general public. 
+
+\paragraph{} Naturally, to make the data more accessible, it is necessary to visualize it. Local authorities usually make this effort, with either one of the following goals: 
+\begin{itemize}
+    \item to inform the public about the current state,
+    \item or present the effects of a future change in the area.
+\end{itemize}
+
+Communicating the current state usually requires analysis and simplification of the raw data, and there is a wide range of tools for that. However, these tools are usually proprietary, and the outputs are not that engaging. The visualization is rarely customizable; proprietary formats are used throughout the entire pipeline, and it is impossible to combine various types of data.
+
+Communicating the future changes is even more difficult since it requires to inform the public about the current state first. In this context, the interactivity of the presentation can be the key to understanding.
+
+We are presented with several technical challenges. The input data is often in several incompatible formats, and each describes a completely different urban domain. In other words, the datasets are often complementary, and the system has to support their combination. For example, some data use different coordinate systems, or the datasets differ in their dimensionality.
+
+If we want to create a \textit{usefull} visualization, the aforementioned technical obstacles should remain hidden from both the visualization creator and also the audience. In the ideal case, the visualization creator is given absolute freedom. The visualization system does not pose any hard restrictions on what is possible; the creator's imagination is the only limit. This utopistic idea is often contradicted by the requirement of a simple and usable interface. It is appropriate to seek a balance between unlimited possibilities and usability.
+
+Taking into account the viewer's perspective, the goal is to make the visualization immersive enough to captivate, educate, and entertain. The physical setup and software capabilities should not diminish the experience and avoid posing any virtual barriers between the medium and the audience.
+
+Usually, the visualization is presented in a public space, either in museums or centers specifically equipped for this kind of presentation. While some of these places own the necessary equipment, the production pipeline is often complicated, and an ad-hoc solution is used. In other cases, the visualization is presented using proprietary software, which is not primarily designed for the general public.
+
+\subsection{The Goal}
+
+The goal is to develop a modular system, which will streamline the urban data visualization process. The design should focus on the following four factors:
+\begin{itemize}
+    \item the actual communicated information,
+    \item the nature of the available urban data,
+    \item the creator's artistic vision,
+    \item and the equipment used for the presentation.
+\end{itemize}
+The tricky part is that probably only one or two of those factors are known in advance --- the urban data and the used equipment can be somewhat standardized. The remaining two factors are usually project-specific; therefore, it is necessary to explore the combination of various data types and somehow (?) enable the freedom of artistic expression. The goal is to build a system for building systems because of the desired modularity and adjustability --- there is an inherent metaprogramming element.
