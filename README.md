@@ -2,23 +2,26 @@
 
 Repo for diploma thesis materials, texts, and resources concerning urban data vizualization.
 
-## Sections
+<img src="./outputs/img/metacity0.png" height="200">
+<img src="./outputs/img/metacity3.png" height="200">
 
-Written sections:
+
+## PDFs:
+
+* [pdf with notes](outputs/output.pdf)
+* [pdf with design notes](note/design.pdf)
+
+
+## Notes:
 
 * [intro](texts/README.md)
 * [data sources](texts/datasource.md)
-
-
-In making:
-
 * [formats](texts/formats.md)
 * [classes](texts/classes.md)
 * [stuff for later](resources.md)
 
+
 ---
-
-
 
 
 ## The assignment (in czech):
