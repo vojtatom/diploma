@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: output.aux
+The style file: iso690.bst
+Database file #1: DP_bibliography.bib
+Warning--I didn't find a database entry for "winderTangible2017"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--to sort, need author or key in winderLoop
+Warning--to sort, need author or key in cityJSONconvert
+Warning--to sort, need author or key in cityGMLimport
+Warning--to sort, need author or key in autodeskRealDWG
+Warning--to sort, need author or key in winderLUPA
+Warning--empty journal in burke2006participatory
+Warning--missing institution in esri1998shapefile
+Warning--empty journal in groger2012ogc
+You've used 17 entries,
+            3146 wiz_defined-function locations,
+            740 strings with 8345 characters,
+and the built_in function-call counts, 6886 in all, are:
+= -- 534
+> -- 208
+< -- 12
++ -- 111
+- -- 59
+* -- 340
+:= -- 779
+add.period$ -- 46
+call.type$ -- 17
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 644
+empty$ -- 623
+format.name$ -- 66
+if$ -- 1501
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 158
+newline$ -- 61
+num.names$ -- 25
+pop$ -- 393
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 285
+stack$ -- 0
+substring$ -- 225
+swap$ -- 336
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 68
+warning$ -- 8
+while$ -- 41
+width$ -- 19
+write$ -- 139
+(There were 9 warnings)

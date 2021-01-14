@@ -1,0 +1,130 @@
+% arara: pdflatex: { synctex: yes }
+% arara: makeindex: { style: ctuthesis }
+% arara: bibtex
+
+% The class takes all the key=value arguments that \ctusetup does,
+% and a couple more: draft and oneside
+\documentclass[twoside]{ctuthesis}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{subcaption}
+
+\ctusetup{
+%	preprint = \ctuverlog,
+%	mainlanguage = english,
+	mainlanguage = english,
+%	titlelanguage = english,
+	otherlanguages = {slovak,czech},
+	title-czech = {Vizualizace urbanistických dat},
+	title-english = {Urban Data Visualization},
+	subtitle-czech = {Zpráva k semestrálnímu projektu},
+	subtitle-english = {Semestral Project Report},
+	xdoctype = M,
+	xfaculty = F3,
+	department-czech = {Katedra počítačové grafiky a interakce},
+	department-english = {Department of computer graphics and interaction},
+	author = {Vojtěch Tomas},
+	supervisor = {Ing. David Sedláček, Ph.D.},
+%	supervisor-address = {Ústav X, \\ Uliční 5, \\ Praha 99},
+%	supervisor-specialist = {John Doe},
+%	fieldofstudy-english = {Mathematical Engineering},
+%	subfieldofstudy-english = {Mathematical Modelling},
+%	fieldofstudy-czech = {Matematcké inženýrství},
+%	subfieldofstudy-czech = {Matematické modelování},
+	keywords-czech = {slovo, klíč},
+	keywords-english = {word, key},
+	day = 14,
+	month = 1,
+	year = 2021,
+	specification-file = {ctutest-zadani.pdf},
+%	front-specification = true,
+%	front-list-of-figures = false,
+%	front-list-of-tables = false,
+%	monochrome = true,
+%	layout-short = true,
+}
+
+\ctuprocess
+
+\addto\ctucaptionsczech{%
+	\def\supervisorname{Vedoucí}%
+	\def\subfieldofstudyname{Studijní program}%
+}
+
+\ctutemplateset{maketitle twocolumn default}{
+	\begin{twocolumnfrontmatterpage}
+		\ctutemplate{twocolumn.thanks}
+		\ctutemplate{twocolumn.declaration}
+		\ctutemplate{twocolumn.abstract.in.titlelanguage}
+		\ctutemplate{twocolumn.abstract.in.secondlanguage}
+		\ctutemplate{twocolumn.tableofcontents}
+		\ctutemplate{twocolumn.listoffigures}
+	\end{twocolumnfrontmatterpage}
+}
+
+% Theorem declarations, this is the reasonable default, anybody can do what they wish.
+% If you prefer theorems in italics rather than slanted, use \theoremstyle{plainit}
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}[chapter]
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{proposition}[theorem]{Proposition}
+
+%\theoremstyle{definition}
+%\newtheorem{definition}[theorem]{Definition}
+%\newtheorem{example}[theorem]{Example}
+%\newtheorem{conjecture}[theorem]{Conjecture}
+
+%\theoremstyle{note}
+%\newtheorem*{remark*}{Remark}
+%\newtheorem{remark}[theorem]{Remark}
+
+%\setlength{\parskip}{2ex plus 0.2ex minus 0.2ex}
+\widowpenalty10000
+\clubpenalty10000
+
+% Abstract in Czech
+\begin{abstract-czech}
+TODO
+\end{abstract-czech}
+
+% Abstract in English
+\begin{abstract-english}
+TODO
+\end{abstract-english}
+
+% Acknowledgements / Podekovani
+\begin{thanks}
+Děkuji ČVUT, že mi je tak dobrou \emph{alma mater}.
+\end{thanks}
+
+% Declaration / Prohlaseni
+\begin{declaration}
+Prohlašuji, že jsem předloženou práci vypracoval samostatně, a že jsem uvedl veškerou použitou literaturu.
+
+V Praze, \ctufield{day}.~\monthinlanguage{title}~\ctufield{year}
+\end{declaration}
+
+\begin{document}
+
+\maketitle
+
+
+\input{chapters/introduction.tex}
+\input{chapters/urbandata.tex}
+\input{chapters/existingsolutions.tex}
+
+\appendix
+
+\printindex
+
+\appendix
+
+\bibliographystyle{iso690}
+\bibliography{DP_bibliography}
+
+%Zadani
+%\ctutemplate{specification.as.chapter}
+
+\end{document}

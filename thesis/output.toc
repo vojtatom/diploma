@@ -1,0 +1,43 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {paragraph}{Keywords:}{iv}{paragraph*.1}%
+\contentsline {paragraph}{Supervisor:}{iv}{paragraph*.2}%
+\babel@toc {czech}{}
+\contentsline {paragraph}{Kl\'i\v cov\'a\ slova:}{iv}{paragraph*.3}%
+\contentsline {paragraph}{P\v reklad\ n\'azvu:}{iv}{paragraph*.4}%
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {czech}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}From Data to Visualization}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Goals}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Urban Data}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Urban Informatics}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Sources of Urban Data}{5}{section.2.2}%
+\contentsline {paragraph}{Open Data}{6}{paragraph*.5}%
+\contentsline {paragraph}{Ubicomp}{6}{paragraph*.6}%
+\contentsline {paragraph}{Online services}{6}{paragraph*.7}%
+\contentsline {section}{\numberline {2.3}Urban Data Domains}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}File Formats}{6}{section.2.4}%
+\contentsline {paragraph}{Esri Shapefiles}{7}{paragraph*.8}%
+\contentsline {paragraph}{CityGML and CityJSON}{7}{paragraph*.9}%
+\contentsline {paragraph}{GeoJSON}{7}{paragraph*.10}%
+\contentsline {paragraph}{DGN and DWG}{8}{paragraph*.11}%
+\contentsline {paragraph}{BIM and IFC}{8}{paragraph*.12}%
+\contentsline {section}{\numberline {2.5}Models Based on Urban Data}{8}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Existing solutions}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Visualization Tools with Physical Components}{11}{section.3.1}%
+\contentsline {paragraph}{Tactile Matrix}{12}{paragraph*.13}%
+\contentsline {section}{\numberline {3.2}Purely Virtual Visualization Tools}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {A}Bibliography}{13}{appendix.A}%

@@ -1,0 +1,87 @@
+\begin{thebibliography}{10}
+\providecommand{\biburl}[1]{\url{#1}}
+\providecommand{\urlprefix}{Available from: }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\biburl{#2}}
+
+\bibitem{winderLoop}
+{Ira Winder, MIT Media Lab, Big Data Analytics Tokyo 2017}. In: YouTube
+  [online]. 12. 5. 2017 [cit. 10. 9. 2020]. Available from:
+  https://youtu.be/zVmc5\_KK5JU.
+
+\bibitem{foth2011urban}
+Foth, M.; Choi, J. H.-j.; et al. Urban informatics. In \emph{Proceedings of the
+  ACM 2011 conference on Computer supported cooperative work}, 2011, pp. 1--8.
+
+\bibitem{robinson2012street}
+Robinson, R.; Rittenbruch, M.; et al. Street computing: Towards an integrated
+  open data application programming interface (API) for cities. \emph{Journal
+  of Urban Technology}, volume~19, no.~2, 2012: pp. 1--23.
+
+\bibitem{weiser1991computer}
+Weiser, M. The Computer for the 21 st Century. \emph{Scientific american},
+  volume 265, no.~3, 1991: pp. 94--105.
+
+\bibitem{zheng2011urban}
+Zheng, Y.; Liu, Y.; et al. Urban computing with taxicabs. In \emph{Proceedings
+  of the 13th international conference on Ubiquitous computing}, 2011, pp.
+  89--98.
+
+\bibitem{burke2006participatory}
+Burke, J.~A.; Estrin, D.; et al. Participatory sensing. 2006.
+
+\bibitem{5CC}
+Ross, L. \textit{Invitation to participate in the 5CC group}. [email]. Message
+  to: Lochschmidtová Kateřina Ing. Mgr. lochschmidtova@ipr.praha.eu,
+  Čtyroký Jiří Mgr. Ph.D. ctyroky@ipr.praha.eu. 13. 10. 2020 [cit. 30. 10.
+  2021]. Personal communication.
+
+\bibitem{esri1998shapefile}
+{ESRI}. ESRI Shapefile technical description. Technical report, 1998.
+
+\bibitem{groger2012ogc}
+Gr{\"o}ger, G.; Kolbe, T.~H.; et al. OGC city geography markup language
+  (CityGML) encoding standard. 2012.
+
+\bibitem{ledoux2019cityjson}
+Ledoux, H.; Ohori, K.~A.; et al. CityJSON: A compact and easy-to-use encoding
+  of the CityGML data model. \emph{Open Geospatial Data, Software and
+  Standards}, volume~4, no.~1, 2019: p.~4.
+
+\bibitem{cityJSONconvert}
+{CityJSON: Software [online]}. CityJSON, 2019. [cit. 30. 8. 2020]. Available
+  from: https://www.cityjson.org/software/.
+
+\bibitem{cityGMLimport}
+{citygml4j [online]}. Citygml4j.org, 2020. [cit. 28. 8. 2020]. Available from:
+  https://github.com/citygml4j/citygml4j.
+
+\bibitem{autodeskRealDWG}
+{RealDWG Developer Center [online]}. Autodesk Inc., 2020. [cit. 12. 9. 2020].
+  Available from:
+  https://www.autodesk.com/developer-network/platform-technologies/realdwg.
+
+\bibitem{alliance1998open}
+Alliance, O.~D. Open Design Specification for. dwg files Version 5.2. 1998.
+
+\bibitem{GDALframework}
+{GDAL/OGR contributors}. \emph{{GDAL/OGR} Geospatial Data Abstraction software
+  Library}. Open Source Geospatial Foundation, 2020.
+\urlprefix\biburl{https://gdal.org}
+
+\bibitem{TANG2017311}
+Tang, L.; Chen, C.; et al. Building Information Modeling and Building
+  Performance Optimization. In \emph{Encyclopedia of Sustainable Technologies},
+  edited by M.~A. Abraham, Oxford: Elsevier, 2017, ISBN 978-0-12-804792-7, pp.
+  311 -- 320.
+
+\bibitem{winderLUPA}
+{Ira Winder (MIT): Důležitější než mít perfektní data je klást ty
+  správné otázky [online]}. David Slížek, 2019. [cit. 10. 9. 2020].
+  Available from:
+  https://www.lupa.cz/clanky/ira-winder-mit-prague-city-data-congress/.
+
+\end{thebibliography}
