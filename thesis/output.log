@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.23)  14 JAN 2021 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.23)  15 JAN 2021 02:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,7 +891,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<ctu_logo_black.pdf, id=56, 366.36874pt x 279.0425pt>
+<ctu_logo_black.pdf, id=80, 366.36874pt x 279.0425pt>
 File: ctu_logo_black.pdf Graphic file (type pdf)
 <use ctu_logo_black.pdf>
 Package pdftex.def Info: ctu_logo_black.pdf  used on input line 111.
@@ -1023,7 +1023,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 (./chapters/introduction.tex
 Chapter 1.
-<figures/Loop1.pdf, id=115, 449.76028pt x 152.4897pt>
+<figures/Loop1.pdf, id=149, 449.76028pt x 152.4897pt>
 File: figures/Loop1.pdf Graphic file (type pdf)
 <use figures/Loop1.pdf>
 Package pdftex.def Info: figures/Loop1.pdf  used on input line 8.
@@ -1052,7 +1052,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `t') on input line 27.
 
 [6] [7]
-<figures/Loop2.pdf, id=218, 579.12357pt x 367.3725pt>
+<figures/Loop2.pdf, id=252, 579.12357pt x 367.3725pt>
 File: figures/Loop2.pdf Graphic file (type pdf)
 <use figures/Loop2.pdf>
 Package pdftex.def Info: figures/Loop2.pdf  used on input line 84.
@@ -1062,29 +1062,61 @@ Package pdftex.def Info: figures/Loop2.pdf  used on input line 84.
 
 ]
 Chapter 3.
-<figures/tactile.jpg, id=275, 361.35pt x 235.3593pt>
+<figures/tactile.jpg, id=312, 361.35pt x 235.3593pt>
 File: figures/tactile.jpg Graphic file (type jpg)
 <use figures/tactile.jpg>
-Package pdftex.def Info: figures/tactile.jpg  used on input line 11.
-(pdftex.def)             Requested size: 181.5pt x 118.21803pt.
-<figures/tactilematrixelectronics.png, id=276, 752.8125pt x 807.015pt>
+Package pdftex.def Info: figures/tactile.jpg  used on input line 15.
+(pdftex.def)             Requested size: 177.872pt x 115.85497pt.
+<figures/tactilematrixelectronics.png, id=315, 752.8125pt x 807.015pt>
 File: figures/tactilematrixelectronics.png Graphic file (type png)
 <use figures/tactilematrixelectronics.png>
 Package pdftex.def Info: figures/tactilematrixelectronics.png  used on input li
-ne 15.
-(pdftex.def)             Requested size: 127.05222pt x 136.1933pt.
+ne 20.
+(pdftex.def)             Requested size: 106.72427pt x 114.39745pt.
 
-LaTeX Warning: Citation `winderTangible2017' on page 11 undefined on input line
- 23.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./figures/tactile.jpg> <./figures/tactilematrixelectronics.png (PNG copy)>
-])
+[11]
+<figures/oficina1.jpg, id=331, 1850.112pt x 1040.688pt>
+File: figures/oficina1.jpg Graphic file (type jpg)
+<use figures/oficina1.jpg>
+Package pdftex.def Info: figures/oficina1.jpg  used on input line 34.
+(pdftex.def)             Requested size: 177.872pt x 100.04147pt.
+<figures/oficina2.jpg, id=334, 1850.112pt x 1040.688pt>
+File: figures/oficina2.jpg Graphic file (type jpg)
+<use figures/oficina2.jpg>
+Package pdftex.def Info: figures/oficina2.jpg  used on input line 40.
+(pdftex.def)             Requested size: 177.872pt x 100.04147pt.
+<figures/rohan1.jpg, id=338, 5018.75pt x 3345.49875pt>
+File: figures/rohan1.jpg Graphic file (type jpg)
+<use figures/rohan1.jpg>
+Package pdftex.def Info: figures/rohan1.jpg  used on input line 56.
+(pdftex.def)             Requested size: 177.872pt x 118.53377pt.
+<figures/rohan3.jpg, id=341, 5018.75pt x 3345.49875pt>
+File: figures/rohan3.jpg Graphic file (type jpg)
+<use figures/rohan3.jpg>
+Package pdftex.def Info: figures/rohan3.jpg  used on input line 62.
+(pdftex.def)             Requested size: 177.872pt x 118.53377pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./figures/tactile.jpg> <./figures/tactilematrixelectronics.png (PNG copy)
+> <./figures/oficina1.jpg> <./figures/oficina2.jpg>] [13 <./figures/rohan1.jpg>
+ <./figures/rohan3.jpg>] [14]) (./chapters/design.tex [15] [16
+
+]
+Chapter 4.
+[17])
 No file output.ind.
 
 Package ctuthesis Warning: The macro \appendix should be used only once.
 (ctuthesis)                Silently ignoring.
 
-(./output.bbl [12]
+(./output.bbl [18]
 Appendix A.
 
 Underfull \hbox (badness 1910) in paragraph at lines 63--66
@@ -1092,37 +1124,66 @@ Underfull \hbox (badness 1910) in paragraph at lines 63--66
 , 2020. [cit.
  []
 
-[13
+[19
 
-]) [14] (./output.aux)
-Package rerunfilecheck Info: File `output.out' has not changed.
-(rerunfilecheck)             Checksum: BE0E35419DDD6BE2FA8622DB98DAFCAF;818.
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+4.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 4279) in paragraph at lines 93--96
+[]\T1/lmr/m/n/10.95 (+20) Tactile Ma-trix. In:Tactile Ma-trix [on-line]. Ira Wi
+nder, Andy
+ []
 
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+\T1/lmr/m/n/10.95 (+20) Ryan, \TS1/lmr/m/n/10.95 © \T1/lmr/m/n/10.95 (+20) 2013
+--2021. [cit. 10. 10. 2020]. Avail-able from:
+ []
 
+[20]
+Underfull \hbox (badness 2409) in paragraph at lines 133--135
+[]\T1/lmr/m/n/10.95 (+20) vis.gl [on-line]. Vis.gl, 2021. [cit. 14. 1. 2021]. A
+vail-able from:
+ []
+
+) [21] (./output.aux)
+
+Package rerunfilecheck Warning: File `output.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `output.out':
+(rerunfilecheck)             Before: 6FEC352630BA46F1235678B2F7989F34;1207
+(rerunfilecheck)             After:  B8EC8D14531A616B5822BF94CEC8928F;1140.
  ) 
 Here is how much of TeX's memory you used:
- 14203 strings out of 479485
- 230001 string characters out of 5871962
- 607078 words of memory out of 5000000
- 30665 multiletter control sequences out of 15000+600000
- 635342 words of font info for 155 fonts, out of 8000000 for 9000
+ 14370 strings out of 479485
+ 232973 string characters out of 5871962
+ 608486 words of memory out of 5000000
+ 30758 multiletter control sequences out of 15000+600000
+ 639274 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,77p,953b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
-/lmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texli
-ve/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on output.pdf (20 pages, 753478 bytes).
+ 73i,17n,77p,1172b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
+exlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
+r8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on output.pdf (27 pages, 8309459 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 31874 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 32966 words of extra memory for PDF output out of 35830 (max. 10000000)
 

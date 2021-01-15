@@ -10,4 +10,9 @@
 \BOOKMARK [0][-]{chapter.3}{Existing solutions}{}% 10
 \BOOKMARK [1][-]{section.3.1}{Visualization Tools with Physical Components}{chapter.3}% 11
 \BOOKMARK [1][-]{section.3.2}{Purely Virtual Visualization Tools}{chapter.3}% 12
-\BOOKMARK [0][-]{appendix.A}{Bibliography}{}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Applications}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{Frameworks}{section.3.2}% 14
+\BOOKMARK [0][-]{chapter.4}{Current State of Design and Implementation}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Missing Topics}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Design}{chapter.4}% 17
+\BOOKMARK [0][-]{appendix.A}{Bibliography}{}% 18
