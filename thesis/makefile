@@ -1,4 +1,4 @@
-TEX = pdflatex
+TEX = pdflatex -shell-escape
 BIB = bibtex
 GLO = makeglossaries
 MAIN = DP_Tomas_Vojtech_2021.tex

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{parameters} \PYG{k+kn}{import} \PYG{n}{param}\PYG{p}{,} \PYG{n}{output}
+
+\PYG{n+nd}{@param}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}number\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{}(first input parameter name, type)}
+\PYG{n+nd}{@param}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}number\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{}(second input parameter name, type)}
+\PYG{n+nd}{@output}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}sum\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}number\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{}(first output parameter name, type)}
+\PYG{k}{def} \PYG{n+nf}{call}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}
+\end{Verbatim}

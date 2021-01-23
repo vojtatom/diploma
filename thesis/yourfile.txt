@@ -1,0 +1,464 @@
+
+
+
+
+
+
+
+
+
+
+	mainlanguage = english,
+
+	otherlanguages = slovak,czech,
+	title-czech = Vizualizace urbanistických dat,
+	title-english = Urban Data Visualization,
+	subtitle-czech = Zpráva k semestrálnímu projektu,
+	subtitle-english = Semestral Project Report,
+	xdoctype = M,
+	xfaculty = F3,
+	department-czech = Katedra počítačové grafiky a interakce,
+	department-english = Department of computer graphics and interaction,
+	author = Vojtěch Tomas,
+	supervisor = Ing. David Sedláček, Ph.D.,
+
+
+
+
+
+
+	keywords-czech = slovo, klíč,
+	keywords-english = word, key,
+	day = 14,
+	month = 1,
+	year = 2021,
+	specification-file = ctutest-zadani.pdf,
+
+
+
+
+
+
+
+
+
+	Vedoucí
+	Studijní program
+
+
+maketitle twocolumn default
+	
+	twocolumn.thanks
+	twocolumn.declaration
+	twocolumn.abstract.in.titlelanguage
+	twocolumn.abstract.in.secondlanguage
+	twocolumn.tableofcontents
+	twocolumn.listoffigures
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10000
+10000
+
+
+-czech
+TODO
+
+
+-english
+TODO
+
+
+
+Děkuji ČVUT, že mi je tak dobrou alma mater.
+
+
+
+Prohlašuji, že jsem předloženou práci vypracoval samostatně, a že jsem uvedl veškerou použitou literaturu.
+
+V Praze, day. title year
+
+
+
+Introduction
+In recent years, cities have become a huge source of various data. The urban data usually includes street layouts, public transport information, layouts of the power network, noise maps, socio-economic maps, etc. The first natural question is, why should we care about the urban data? Why do we bother coming up with creative ways to present the data publicly?
+
+All plans and future changes are made and approved based on the models derived from the urban data. As the city develops, people adapt, and newer data is generated. Newer data can help building newer, better models. The city planning process is a loop with city planners on one side and stakeholders together with general public on the other, see ilustration .  
+
+
+            Basic city planning loop
+    
+Looking at this loop from the stakeholders' perspective, it is in their best interest to influence the decision-making process in their favour. Similarly, local authorities should strive for more interaction between the city administration and the public. This involves making the urban data publicly available and accessible.
+
+From Data to Visualization
+As of today, the urban data is usually freely accessible in a format that is obscure for the general public. Naturally, to make the data more accessible, it is necessary to visualize it. Local authorities usually make this effort with either one of the following goals: 
+
+    to inform the public about the current state,
+    or present the effects of a future change in the area.
+
+Communicating the current state usually requires analysis and simplification of the raw data. There is a wide range of tools for that; however, these tools are usually proprietary, and the outputs are not that engaging. The visualization is rarely customizable; proprietary formats are used throughout the entire pipeline, and it is impossible to combine various types of data.
+
+Communicating the future changes is even more difficult since it is required to inform the public about the current state first. In this context, the interactivity of the presentation can be the key to understanding.
+
+We are presented with several technical challenges. The input data is often in several incompatible formats, and each describes a completely different urban domain. In other words, the datasets are often complementary, and the visualization system has to support their combination. For example, some data use different coordinate systems, or the datasets differ in their dimensionality.
+
+If we want to create a usefull visualization, the aforementioned technical obstacles should remain hidden from both the visualization creator and also the audience. In the ideal case, the visualization creator is given absolute freedom. The visualization system does not pose any hard restrictions on what is possible; the creator's imagination is the only limit. This utopistic idea is often contradicted by the requirement of a simple and usable interface. It is appropriate to seek a balance between unlimited possibilities and usability.
+
+Taking into account the viewer's perspective, the goal is to make the visualization immersive enough to captivate, educate, and entertain. The physical setup and software capabilities should not diminish the experience and should avoid posing any virtual barriers between the medium and the audience.
+
+Usually, the visualization is presented in a public space, either in museums or centers specifically equipped for this kind of presentation. While some of these places own the necessary equipment, the production pipeline today is often complicated, and an ad-hoc solution is used. In other cases, the visualization is presented using proprietary software, which is not primarily designed for the general public.
+
+The Goals and Requirements
+The goal is to develop a modular system, which will streamline the urban data visualization process. The project is being developed in cooperation with IPR Prague. Based on the assignment, the following requirements need to be fulfilled:
+[noitemsep]
+    the created visualization has both virtual and physical components,
+    the system enables processing the urban data and styling the visualization,
+    the system supports web-based presentation,
+    the system produces outputs which are needed for assembling or printing physical models,
+    the system enables projection mapping onto physical models,
+    and the system allows adding new functionalities.
+These requirements can be simplified into three following goals:
+[noitemsep]
+    design a modular system for data processing,
+    implement a flexible visualization pipeline for urban data,
+    and implement a pipeline which streamlines the production of physical models.
+The ultimate goal is to build a system for building other systems because of the desired modularity and adjustability - there is an inherent metaprogramming element.
+Urban Data
+This chapter aims to describe the nature of urban data - the sources, classification, and available formats. To some extent the term urban data is somewhat simmilar to other buzzwords, such as big data. As there is no official definition of the term urban data, it is often explaied by giving a list of examples, such as transport data or socio-economic maps. The urban data is a subject of study in several fields, one of which is the Urban Informatics.
+
+Urban Informatics
+In 2011, Forth et al. described Urban Informatics as a separate field of study. It focuses on three key aspects - place, technology, and people in the context of urban environments. The urban environment is described as a "complex techno-social network; the city only meaningfully exists when a sustained stream of people occupies it". The authors outline and study four dominant trends: the emergence of ubiquitous computing, the accessibility of real-time information, informed sustainability, and planning based on citizen participation. 
+
+One of the goals of Urban Informatics is to help developing communication channels between local authorities and citizens. Moreover, thanks to the gathered information, the citizens can, directly and indirectly, influence the development of the urban area. The communication channels, as understood by Urban Informatics, are omnidirectional. 
+
+Sources of Urban Data
+This section contains description of three main urban data sources. This clasification is based on the summary presented in. The urban data sources include mainly governments and local administrative institutions. Additionaly, the data is gathered and received through devices that are part of the ubicomp device system. The third source of urban data consists of online services, such as social networks. 
+
+Open Data
+The most prominent source of data are governments and local institutions. The data is commonly released in several open formats, which are further described in the section . This data often includes maps, building layouts, terrain models, technical metadata, public transport data, etc. The formats range from generic CSV or SQLite-based to domain-specific DWG, CityGML, etc.   
+The data presented earlier are mainly static; some cities also offer real-time information about weather or public transport vehicle locations. 
+
+Ubicomp Mark Weiser first introduced Ubiquitous Computing in 1991. The concept of ubicomp relies on small embedded computers, which communicate together and allow for seamless interaction between users and technology. Accoring to, the ubiquitous information's impact on the city level became the focus of study in a separate field called Urban Computing. In the spirit of ubiquitous computing, there is an emerging field of Participatory Sensing, which enables gathering data from devices of individual users. The design of the participation model focuses on data credibility, security, and privacy protection. One of the applications of Participatory Sensing is the use of the gathered data for urban planning. 
+
+Online services
+Personal data can also be acquired from social networks or mobile phone carriers. Online platforms usually support geotagging, adding geospatial metadata to the content posted online. The content can be easily queried based on the selected location. Alternatively, the citizens' location can be tracked via their mobile phone directly by carriers using the individual base transceiver stations (BTS).  From the perspective of Urban Informatics, the aforementioned data sources enable creating richer urban area models. 
+
+Urban Data Domains
+There is no official classification of the urban data. However, open data portals usually use custom classification schemes, which are either domain or format-based. Based on the available open data catalogues of the cities in 5 Cities Connect(Prague has been recently invited into the 5CC initiative) group, a list of domain classes has been assembled, see table . The listed domains are either of significant importance or have appeared across a majority of the reviewed catalogues.  
+
+
+
+
+[]
+    
+    
+    Urban data classes availability on open data portals
+    
+
+File Formats
+This section describes the file formas used to store various urban data. Some of these file formats are proprietary; however, from the perspective of application development, open formats are more attractive. 
+
+Esri Shapefiles 
+Esri Shapefile is generally a vector data file format for a geographic information system. A single shapefile consists of several files; the minimal set of files necessary for correct data interpretation is  DBF, SHP, and PRJ file: 
+
+[noitemsep]
+    [SHP] contains the actual geometry,
+    [DBF] contains the attributes and indexes,
+    [PRJ] describes the coordinate reference system.  
+In the original specification, SHX is also a mandatory file. Still, the file only allows to accelerate the queries and is not required for the data to be displayed correctly. The Shapefile format is well documented, and there is a range of existing importers in various languages. 
+
+
+CityGML and CityJSON
+CityGML is an XML-based file format designed to capture the structure and metadata of 3D city models. The aim of the development is to come up with a standardized and sustainable way of storing urban data. There is a JSON-based version of CityGML - CityJSON. Despite minor differences, these two standards are mostly compatible. From the practical point of view, the CityJSON format is much less verbose and thus easily parsable. Both CityGML and CityJSON are open formats; there are convertors and importers available, see.
+
+GeoJSON
+Another JSON-based standard is the GeoJSON format. This GeoJSON structure is quite simple; the file can describe a set of primitive geometry objects such as lines, lines, or polygons. Each primitive can have a variable number of properties, which can be completely arbitrary. The GeoJSON file usually describes data such as networks or areas. Compared to CityJSON, GeoJSON is not suitable for representing hierarchies, which usually naturally appear in building geometry and its components. GeoJSON is an open format, it is fairly simple to write an importer for this format. 
+
+DGN and DWG
+Both of these formats are proprietary vector formats used by CAD editors, such as AutoCAD. A reader for the DWG format is a part of RealDWG developer suite created by Autodesk. Its license is incompatible with most free software licenses. As a result, no open tools contain an effective importer for the DWG file format. There is no official free DWG SDK; the software for importing and converting DWG is a part of software offered by OpenDesignAlliance (ODA). Some sort of DWG and DGN loading capabilities are implemented in the GDAL framework.
+
+BIM and IFC
+Based on, Building Information Model (BIM) is the common name for all data relevant to an architectural structure - the plans, costs, changes over time, etc. Industry Foundation Classes (IFC) is a data model designed for architectural, building, and construction data. It is a platform-neutral and open file format. In some states, the IFC has been legally established as the standard exchange format for public project data. Like Shapefiles, IFC is not a single file; there are many available IFC versions, and the development of newer ones is underway. On the other hand, contrary to Shapefiles, each IFC file version should include the same data; the only difference is in the encoding. 
+
+
+Most of the presented formats store the data as geometry accompanied by metadata. From the developer perspective, the most flexible formats are CityGML and CityJSON. There are open-source readers for both of those formats, the CityGML reader is implemented in Java; the CityJSON reader is implemented in Python. The other presented formats are not that developer-friendly (Esri Shapefile is partially a binary format), there is no open specification or parser (DGN and DWG), or the specification is not yet widely used in Czech Republic (BIM and IFC). Compared to CityJSON, GeoJSON is a much simpler format; however, it provides an easy way to store simple spatial features, such as points, lines, or areas.  Moreover, the GeoJSON supports storing custom user-defined metadata for each of the spatial elements.  
+
+Models Based on Urban Data
+Urban data alone is not always a sufficient input for city planning. The main issue is the static nature of the data. According to Ira Winder, analytical models presented as interactive simulations are often more suitable for the purpouses of planning. The models help answer questions. There is no guarantee the models are correct; complex models can be just as useful as the simple ones. 
+
+
+            Sociotechnical system model
+    
+In a talk given by Ira, he describes the paradigm of generating insight from data, which is illustrated in figure . He emphesises the role of the user interface, which is essential in getting familiar with the actual data and analytics. The generated insight influences further planning and development. The impact of these actions has the potential to generate new data which feeds back into the loop. The step from data to analytics can be rather intensive and involves creating analytical models. 
+
+
+Existing Solutions
+The urban data visualization process can be viewed from multiple perspectives. We can consider the actual physical form of the presentation - the medium and the the interaction mechanism. On the other hand, it is possible to consider the tools used for the visualization creation, which is more closely related to the standard visualization pipeline. Considering the physical form of the visualization, the examples listed in this chapter can be divided into categories - purely virtual visualizations, and visualizations with physical components.
+
+Visualization Tools with Physical Components
+This section presents a selected list of visualization tools and projects which use interactive physical components in any shape or form. Due to the nature of these tools, the environment where the visualization is presented plays an important role. It has a profound influence on accessibility, interactivity, and the overall user experience. All presented examples share a common scheme - a table with interactive physical components is accompanied by a wide-screen projection presenting the actual visualization.   
+
+Tactile Matrix
+Ira Winder and Kent Larson have presented a framework called Tactile Matrix. It is a collaborative tool for real-time computation and projection mapping, see figure . The tool is based on a principle described in section . The users are presented with a matrix representing city blocks; additional information is conveyed by the visualization projected on top of the matrix. The visualization is driven by an analytical model, which takes the matrix configuration as an input. Lego blocks can be placed into the matrix and the system updates the projection, as the model responds to new inputs. The tool is implemented in Processing, which is a Java-based environment. The SDK for the Tactile Matrix project is available, which also includes the manual to construct the physical components.
+
+
+        [t]0.49
+                        Participants using Tactile Matrix
+        [t]0.49
+                        SDK Scheme
+        Tactile Matrix framework
+    
+Pře(d)stav si Prahu 
+In 2019, the OFICINA studio created for IPR Prague an interactive exhibition. The exhibition aimed to present Strategic Plan for Prague. The visitors had the opportunity to try the role of city planners. The exhibition used the space of the Center for Architecture and Metropolitan Planning (CAMP). The dominant feature of the exhibition was the wide-screen projection displaying the current state of the simulation, see figure . The task of the visitors was to regulate the city life (e.g. tourism, transport), and set the course of the future development (e.g. investments, housing). The simulation was controlled by the amount of colorful blocks on tables (see figure ), and by analog pulls. Each analog control was assigned a specific action; placing the block or activating the pull sent a new input to the underlying model. The wide-screen visualization provided the visual feedback. The virtual visual components were implemented using web technologies to provide more flexibility.
+
+
+        [t]0.49
+                        Color blocks
+                [t]0.49
+                        The exhibition environment
+                Pře(d)stav si Prahu by OFICINA in CAMP
+    
+
+Rohanský ostrov: nový Karlín? 
+Another exhibition at CAMP in 2019 used a combination of architectural model and projection mapping, more details can be found in. The exhibition was not interactive; however, the projection served as a visual aid for the visitors standing around the physical model. The projection highlited areas and buildings that will be transformed in the next 20 years.
+
+
+        [t]0.49
+                        Highlited area
+                [t]0.49
+                        Physical model
+                Rohanský ostrov: nový Karlín? in CAMP
+    
+
+Purely Virtual Visualization Tools
+Purely virtual visualization tools are usually a variation of geographic information system (ArcGis, QGIS), but there are a few notable exceptions (kepler.gl, Movement). 
+
+Applications
+This section presents the available geospatial visualization applications. As is evidenced by the following list of available applications, the dominant trend in geographic visualization is to move the presentation to the web environment. That has a few advantages:
+
+    no need to install any desktop applications
+    multiplatform apps by default
+    easily sharable content (it is already on the web)
+
+ArcGis 
+Esri offers a range of GIS products under the name of ArcGIS. It is a full suite of software for geospatial visualization and analysis. ArcGIS Urban focuses on urban data, visualization, and planning. It is a web-based application. As it is commercial software with full-time support, it is a widely popular solution used by local authorities. ArcGis supports a wide range of proprietary formats (namely ArcIMS, DGN, DWG, DXF, and a range of raster formats). 
+
+QGIS An open-source alternative to ArcGIS is QGIS - a tool for creating, viewing, and editing geospatial information. It supports a wide range of formats (Esri Shapefiles, ArcInfo files, MapInfo files, .csv, OpenStreetMap data, PostGis data together with a group of database-based file formats). There is a QGIS plugin, Qgis2threejs, which provides a way to view 3D content in browser, but it appears that the only supported input format is .hgt - DEM (Digital elevation model) format. From version 3.0, there is built-in support for 3D content; supported formats are mostly Esri Shapefiles and raster formats (e.g. GeoTiff). It is possible to export static images as well as short animations created from time-series data. The current capabilities of the program do not allow to customize the styling of the outputs. 
+
+kepler.gl
+Kepler.gl is an open-source visualization application developed by vis.gl. The tool was created and popularized in collaboration with Uber; the main focus is scalability and good performance. The tool is based on Deck.gl, also made by vis.gl, a WebGL-based rendering framework optimized for big data visualizations. The application uses a concept of layers and filters for displaying the imported data. Each layer is an isolated entity with its own base geometry (lines, arcs, points, hex or rectangular grid, heatmap, etc.) and style. 
+The application uses OpenStreetMap and Mapbox data as a source for 2D maps and 3D models of buildings. The only missing 3D component is the terrain height. It is possible to use Kepler.gl as a Python library for visualization inside Jupyter Notebooks. The supported formats include CSV, GeoJSON, and proprietary JSON-based application format. 
+
+Movement
+This application was also developed by vis.gl in collaboration with Uber. The primary focus of this application is the visualization of transport-related data. This project stands on the border of visualization and data analysis. Unlike the previous examples, this application was developed to present a fixed set of curated datasets. The goal is to help cities (they operate only in a limited number of cities) to reduce congestion, emissions, and improve road safety.
+
+Cesium
+Cesium is a platform for building geospatial applications. It provides a way to push 3D content to both web (CesiumJS) and Unreal Engine. A part of the services is a platform called Ion, which automatically tiles and optimizes the content for both web and the game engine and offers a library of assets such as images, terrain, and building models. Cesium offers a free plan with a limited amount of data. However, the platform is targeted towards commercial projects and offers pre-paid plans with higher bandwidth.
+
+Frameworks
+In terms of visualization frameworks, there are several existing solutions. There is a slight difference between the previous examples and these frameworks - the frameworks are not standalone visualization solutions. The visualization frameworks usually provide a set of features (data management, rendering, etc.) used throughout the visualization pipeline. 
+
+3DCityDB
+3DCityDB is a framework oriented towards effective storing, analysis, and export of the urban data. Part of the toolkit is also a visualization client, but the framework is mainly oriented towards data management. The idea behind this framework is the use of the CityGML standard as the base scheme for the data representation. The framework supports export into several formats, such as Collada, glTF, and KML.
+
+Vis.gl Frameworks
+Vis.gl develops several web-based frameworks for visualization. Deck.gl is a WebGL-based rendering framework for visual exploratory data analysis of large geospatial datasets. It's built to be compatible with React (app flow and UI) and Mapbox (source of the base map). A more general-purpose visualization framework is Luma.gl, also a WebGL-based toolkit. To provide a way for plotting various data in 2D, vis.gl developed a library React-vis. As the name already suggests, it is built to be compatible with the React app model.
+
+Blender GIS and Up3date
+Several plugins allow for the import of GIS data into Blender, namely Blender GIS or Up3date, which are both still maintained. The supported files include CityJSON, Shapefile vector, raster image, GeoTIFF DEM, OpenStreetMap. 
+
+
+Missing Topics
+There is a number of relevant topics, which were not presented in this chapter. These topics are roughly outlined here and will be incorporated into the thesis in the future.
+
+    [Game Engines as Visualization frameworks] Game engines such as Unreal Engine or Unity can be used as data visualization frameworks, and therefore should be mentioned in the section .
+    [Graphic Libraries] A number of projects listed in chapter  use graphic libraries such as OpenGL, WebGL, etc. To keep the list in the chapter  complete, these libraries should be listed there as well.
+    [Visual Programming] Visual programming langages are relevant topic and have yet not been described in the thesis. As the proposed design described further relies on the visual programming principles, it would be suitable to include an intro to the subject.
+    [Printing 3D Models and Lego] The physical models have been presented in the chapter , however there is no section concerning the actual creation of the printed/assembled models.  
+
+Design
+This chapter presents the design of the project. The overview of the design is presented in the figure . The project is divided into several components, which are described further in this chapter. The assignment poses several constraints on the used technology, which ultimately influences the overall design. Furthermore, there is a number of design criteria to consider:
+[noitemsep]
+    nature of the input data
+    clarity and usability of the system
+    nature of the supported presentation formats
+    computational and memory efficiency
+    expandability of the system
+
+
+            Illustration of the proposed design
+    
+Design Outline
+Based on the requirements and goals presented in the section , it is possible to divide the proposed  visualization system into three independent components:
+[noitemsep]
+    [Editor] The editor component handles the user interface and provides an easy way to assemble a custom visualization pipeline, the controls are based on the principles of visual programming.
+    [Data Processing] The data processing component is an independent part of the system, it filters and transforms the urban data based on the pipeline provided by the editor, the essential feature of the component is its modularity.
+    [Web and Projection Views] The web and projection view components act as the data viewport, where the actual interactive visualization is presented to the user.  
+
+The key principle of the design is modularity. Since it is not possible to define a complete set of functionalities sufficient for every project, the system is designed in a way which allows seamless integration of new functional elements, especially in the data processing component. Since the components are mostly independent, it is possible to implement each of them using different technology. The choice of the technology is based on the design criteria presented in the beggining of this chapter, as well as on the initial requirements. The design of the visualization pipeline consists of the following steps:
+
+    selected files are imported into the editor, the files are preprocessed into the internal data representation in the background,
+    user assembles the filtering and mapping parts of the visualization pipeline in the editor,
+    the editor generates a graph of processing steps,
+    the data processing component parses the graph and processes the input data,
+    and output files are generated, including exports for views and model production.  
+
+Input Formats and Data Representation
+A list of urban data formats is presented in the section . From the developer perspective, the most accessible formats are CityGML, CityJSON, and GeoJSON. Since both CityGML and CityJSON are quite extensive formats, it is not desirable to reimplement the file readers. 
+
+As the widely used readers of CityGML and CityJSON are written in different programming languages, it is necessary to choose the supported formats with respect to the implementation of the processing component. Luckily, the structure of the CityJSON and CityGML is almost identical, the only difference is in the base format (JSON vs. XML). Therefore, the data processing component can be implemented in Python or Java. 
+
+The design of the internal data representation uses a simple model of geometry accompanied by metadata. Both CityGML and CityJSON formats use a range of spatial elements to represent the geographical entities. From the perspecitve of the urban data visualization, it is possible to limit the geometrical representation to the following elements:
+[noitemsep]
+    [Points] Points can represent a spatial feature such as small points of interest, or geotagged content, etc.
+    [Curves] Curves, internally represented as line segments, can represent streets, roads, waterways, technical networks, etc.
+    [Areas] Areas represent strictly 2D features, such as zones (parks, sqaures, parking lots, brownfields, etc.), water surfaces, building plots, etc.
+    [Objects] Object is a general three-dimensional element, from the perspective of the urban data visualization, the hull or rough bounding area of the object is sufficient. Generally, the objects represent buildings or bigger points of interest (statues, fountains, etc.). Terrain is also considered to be an object.
+The accompanying metadata can contain any user-defined values. The metadata is internally represened using a dictionary-like structure. 
+
+Editor
+The editor consists mainly of the user interface used to assemble the visualization pipeline. The editor employs the principles of visual programming and offers a list of functions which can be combined to assemble the visualization pipeline, see figure . The proposed design of the interface is heavily insipred by the Nodes.io project. The editor recieves a list of available functions from the data processing component and builds the corresponding interface. 
+
+
+            Illustration of the proposed editor design
+    
+The assembled pipeline is represented as acyclic directed graph of functions. Each function is indentified by its unique title and the structure of the function consists of input and output specifications. Each function can have a variable number of inputs and outputs; however the connectors also need to have a unique name. From the perspective of the editor, it is not important what the function actually does. Each of the input and output function connectors also contains an meta information about the supported type. Therefore, the editor is capable of checking the type compliance.    
+
+Additionaly, each function is a system plugin. The raw editor is implemented as an application with zero user-accesible functionality. However, the system offers a simple API for adding custom functionalities. This design enables employment of agile development strategies. 
+
+Data Processing
+The data processing component manages the implementation of the available functions and processes the input data. 
+
+Implementing Functions As presented in the previous section, each function is a custom system plugin implemented as a seperate script. The processing component can dynamically update the function implementation based on the changes made by the user in the source script. This mechanism is not simple to implement; however, the benefits of this approach allow for rapid protoyping of the system. It is desired to integrate development shorcuts (e.g. IDE launch buttons, default function templates) directly into the editor.  
+
+Processing Input Data When the editor component submits the pipeline graph to the data processing component, the following sequence of steps follows:
+
+    the graph is checked wheter it contains any loops
+    topsort algorithm is performed to generate the order of the functaion calls
+    launches the functions in the generated order while keeping track of the input and output parameters  
+ 
+
+As mentioned in , data loading requires the use of existing file readers. As it is desired to avoid reimplementing the reader functionality, the technology used to implement the processing component should be compatible with either Python or Java. Further, the non-trivial functionality of dynamic script loading has to be supported in the chosen language. Python has been chosen for the following reasons:
+[noitemsep]
+    CityJSON, based on JSON, is easier to parse than XML; the CityJSON reader is implemented in Python
+    Python supports dynamic module importing by defaul using the standard importlib package
+    for improved performance, Python can be easily compiled and integrated with C++ code using the Cython compiler
+
+
+Web and Projection Views
+Based on the requirements presented in section , the view has to be implemented as a web-based application. The section  lists a wide range of web-based tools for urban data visualization. However, none of these tools is fully suitable for the current use case; from the developer perspective, the most fitting seem to be the Vis.gl Frameworks - Deck.gl and Luma.gl. Luma.gl provides a wrapper around WebGL API and Deck.gl implements a layer-based framework for geospatial data visualization. As every framework, Deck.gl also has limitations: 
+[noitemsep]
+    the framework does not provide a way to create user interface,
+    when writing custom shaders, not all WebGL features are fully supported and officialy documented (e.g. use of textures for displacement),
+    the developer has no control over the progressive loading of map tiles.
+It is possible to develop a reasonable protoype using the Deck.gl framework; however, to further optimise the user experience and provide a higher degree of visual customisability, it is suitable to use a general purpouse graphic library directly, such as WebGL.
+
+The implementation of the projection view is straighforward - it requires rendering the visualization using orthographical projection. The projection can be further adjusted to comply with the setting of the projector and the physical model. 
+
+
+
+
+
+
+Implementation
+Two components of the system have been implemented as a proof of concept: the editor and the web 3D view.
+
+Editor The editor has been implemented as a combination of Electron application with Python backend. Portable Python version is a part of the application executable; therefore, it is not neccesary to have Python installed globally. The backend is capable of loading user-defined functions. In order to create a user-defined function:
+
+    create a new .py script in the src/py/scripts directory,
+    import the param and output decorators from the parameters module (this is the only neccesary API),
+    create a function called call
+The following example illustrates the API available for creating custom functions. All parameters and return values have to be documented by the decorators. The first prototype UI is presented in figure .
+[
+    linenos,
+    numbersep=5pt,
+    gobble=0,
+    frame=lines,
+    framesep=2mm]python
+from parameters import param, output
+
+@param('a', 'number') #(first input parameter name, type)
+@param('b', 'number') #(second input parameter name, type)
+@output('sum', 'number') #(first output parameter name, type)
+def call(a, b):
+    return a + b
+
+The build of the application into executable deplyable form is fairly complex:
+
+    package the undrelying electron application,
+    download and inject portable version of Python 3 into the packaged app,
+    install Python dependencies locally into the portable version,
+    and package the application into a downloadable archive.
+This procedure can be executed on both Linux and Windows, as all of the used technologies are multiplatform. To simplify this process, a Github Action has been setup on github.com. The Action performs all of the steps above once a new vesion of the source code has been uploaded and tagged for release. The packaged version of the protoype can be downloaded from Github(See section Releases at https://github.com/vojtatom/urbann).
+
+
+            Demonstration of the visual programming pipeline calling Python functions in the background
+    
+
+Web 3D View
+The Web 3D View renders processed geometry extracted from CityJSON. The displayed area is located in Holešovice, Prague(The data was provided by courtesy of IPR Prague). The geometry and metadata have been processed using the following pipeline:
+
+    original CityJSON is converted to .obj using,
+    a set of custom readers(See https://github.com/vojtatom/citypy) loads the original CityJSON data together with OBJ of terrain and buildings and pairs the geometry with available metadata,
+    a heightmap of the roads and terrain is generated,
+    all generated data (geometry, metadata, and heightmap) are packed into a json file,
+    the file is exported to the web 3D viewer  
+The code of the web 3D view is also available on Github(See https://github.com/vojtatom/metacity). The web view is implemented using pure WebGL 2, it loads the geometry structured as outlined in the previous chapter, see section . For illustration, there as a live demo available online(See https://vojtatom.cz/metacity), or see figures - .
+
+
+
+            Loading terrain and building geometry, side view
+    
+
+            Loading terrain and building geometry, top view
+
+
+            Prototyping animated traffic
+
+
+            Implementing building shadows, top view
+
+
+            Implementing building shadows, side view
+    
+Future Development
+There are areas which have not been explored yet. These topics will be the focus of future development:
+
+    generating outputs for physical models production and assembly,
+    projection mapping the visualization onto a physical model,
+    defining the basic styling functionalities,
+    user testing the editor interface,
+    and combining all component prototypes together.
+
+
+Conclusion
+The report described and analyzed urban data - the sources, domains, and used file formats. Urban data alone is not always sufficient to generate the insight; analytical models derived from the data together with interactive tools can improve the city planning process. The initial research presented a number of existing visualization tools. Some of these tools are purely virtual, other are augmented by the use of physical components.
+With the three main goals in mind, design of modular visualization system was presented. The proposed design uses a combination of technologies in order to provide a combination of flexibility, customisability and high performance. Two prototypes of system components have been implemented. The two protoypes presented in this report demonstrated that the design concepts introduced in the previous chapter are plausible. The future development will include the integration of individual components into a functional standalone application. 
+
+
+
+
+
+
+iso690
+
+
+
+
