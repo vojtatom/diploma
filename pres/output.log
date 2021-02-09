@@ -1,0 +1,2336 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.23)  9 FEB 2021 18:02
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**hello.tex
+(./hello.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2020/07/22 v3.59 A class for typesetting presentations
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count171
+)
+\beamer@tempbox=\box47
+\beamer@tempcount=\count172
+\c@beamerpauses=\count173
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count174
+\beamer@minimum=\count175
+\beamer@decode@box=\box48
+)
+\beamer@commentbox=\box49
+\beamer@modecount=\count176
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box50
+\beamer@animcurrent=\box51
+\beamer@animshowbox=\box52
+\beamer@sectionbox=\box53
+\beamer@logobox=\box54
+\beamer@linebox=\box55
+\beamer@sectioncount=\count177
+\beamer@subsubsectionmax=\count178
+\beamer@subsectionmax=\count179
+\beamer@sectionmax=\count180
+\beamer@totalheads=\count181
+\beamer@headcounter=\count182
+\beamer@partstartpage=\count183
+\beamer@sectionstartpage=\count184
+\beamer@subsectionstartpage=\count185
+\beamer@animationtempa=\count186
+\beamer@animationtempb=\count187
+\beamer@xpos=\count188
+\beamer@ypos=\count189
+\beamer@ypos@offset=\count190
+\beamer@showpartnumber=\count191
+\beamer@currentsubsection=\count192
+\beamer@coveringdepth=\count193
+\beamer@sectionadjust=\count194
+\beamer@tocsectionnumber=\count195
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count199
+\c@pgf@countb=\count266
+\c@pgf@countc=\count267
+\c@pgf@countd=\count268
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count269
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2020/10/01 v3.1.6a (3.1.6a)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2020/10/01 v3.1.6a (3.1.6a)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+)
+\pgfsys@objnum=\count270
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfsyssoftpath@smallbuffer@items=\count271
+\pgfsyssoftpath@bigbuffer@items=\count272
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box57
+\extrarowheight=\dimen177
+\NC@list=\toks24
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box58
+)
+\everycr=\toks25
+\minrowclearance=\skip52
+)
+\rownum=\count273
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count274
+\pgfmath@box=\box59
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count275
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count276
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgflinewidth=\dimen197
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowsep=\dimen257
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@max=\dimen258
+\pgf@sys@shading@range@num=\count277
+\pgf@shadingcount=\count278
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfexternal@startupbox=\box63
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count279
+\XC@countmixins=\count280
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen259
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count283
+Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4338.
+Package hyperref Info: Option `implicit' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count284
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen260
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count285
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+\Hy@abspage=\count286
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box64
+\c@Hy@AnnotLevel=\count287
+\HyField@AnnotCount=\count288
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+)))))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count291
+\beamer@lastskipcover=\skip53
+\beamer@trivlistdepth=\count292
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count293
+\c@part=\count294
+\c@section=\count295
+\c@subsection=\count296
+\c@subsubsection=\count297
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count298
+\beamer@zoomframecount=\count299
+\beamer@frametextheight=\dimen263
+\c@subsectionslide=\count300
+\beamer@frametopskip=\skip54
+\beamer@framebottomskip=\skip55
+\beamer@frametopskipautobreak=\skip56
+\beamer@framebottomskipautobreak=\skip57
+\beamer@envbody=\toks30
+\framewidth=\dimen264
+\c@framenumber=\count301
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count302
+\beamer@autobreaklastheight=\dimen265
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box69
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box70
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks33
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box71
+\bmb@colorbox=\box72
+\bmb@boxshadow=\box73
+\bmb@boxshadowball=\box74
+\bmb@boxshadowballlarge=\box75
+\bmb@temp=\dimen266
+\bmb@dima=\dimen267
+\bmb@dimb=\dimen268
+\bmb@prevheight=\dimen269
+)
+\beamer@blockheadheight=\dimen270
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\c@figure=\count303
+\c@table=\count304
+\abovecaptionskip=\skip58
+\belowcaptionskip=\skip59
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen271
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen272
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen273
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count305
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count306
+\leftroot@=\count307
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count308
+\DOTSCASE@=\count309
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box76
+\strutbox@=\box77
+\big@size=\dimen274
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count310
+\c@MaxMatrixCols=\count311
+\dotsspace@=\muskip17
+\c@parentequation=\count312
+\dspbrk@lvl=\count313
+\tag@help=\toks36
+\row@=\count314
+\column@=\count315
+\maxfields@=\count316
+\andhelp@=\toks37
+\eqnshift@=\dimen275
+\alignsep@=\dimen276
+\tagshift@=\dimen277
+\tagwidth@=\dimen278
+\totwidth@=\dimen279
+\lineht@=\dimen280
+\@envbody=\toks38
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks45
+)
+\c@theorem=\count317
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y
+\beamer@dima=\dimen281
+\beamer@dimb=\dimen282
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamerposter/beamerposter.sty
+Package: beamerposter 2018/04/23 v.1.13 latex-beamer poster extension
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
+)
+\XKV@depth=\count318
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/type1cm/type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count319
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count320
+\FP@xia=\count321
+\FP@xib=\count322
+\FP@xfa=\count323
+\FP@xfb=\count324
+\FP@rega=\count325
+\FP@regb=\count326
+\FP@regs=\count327
+\FP@times=\count328
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count329
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+Package beamerposter Info: checking size input, please wait. on input line 129.
+
+Package beamerposter Info: the input a0\ 1\ was correct, we proceed. on input l
+ine 129.
+Package beamerposter Info: finished size input check. on input line 129.
+Package beamerposter Info: myfontscale=1.0 on input line 129.
+Package beamerposter Info: checking orientation input, please wait. on input li
+ne 130.
+Package beamerposter Info: the input landscape\ 1\ was correct, we proceed. on 
+input line 130.
+Package beamerposter Info: finished orientation check. on input line 130.
+Package beamerposter Info: checking size input, please wait. on input line 130.
+
+Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on inp
+ut line 130.
+Package beamerposter Info: finished size input check. on input line 130.
+Package beamerposter Info: custom poster width=16 on input line 130.
+Package beamerposter Info: custom poster height=9 on input line 130.
+Package beamerposter Info: myfontscale=0.5 on input line 130.
+Package beamerposter Info: enabled debug mode on input line 130.
+ ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontscale * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.5"
+FP debug: upn: calculating "fontscale"
+FP debug: upn: result      "1.0"
+FP debug: upn: calculating "1.0 mul 0.5"
+( FP-MUL )
+FP debug: upn: result      "0.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.50"
+FP debug: upn: +++ result of upn-expression is "(0.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "1 customwidth -"
+FP debug: upn: calculating "1"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "customwidth"
+FP debug: upn: result      "16"
+FP debug: upn: calculating "16 sub 1"
+( FP-SUB )
+FP debug: upn: result      "15.000000000000000000"
+FP debug: upn: +++ result of upn-expression is "(15.000000000000000000)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "1 customheight -"
+FP debug: upn: calculating "1"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "customheight"
+FP debug: upn: result      "9"
+FP debug: upn: calculating "9 sub 1"
+( FP-SUB )
+FP debug: upn: result      "8.000000000000000000"
+FP debug: upn: +++ result of upn-expression is "(8.000000000000000000)"
+)
+Package beamerposter Info: paperwidth=455.24408pt, paperheight=256.0748pt on in
+put line 173.
+Package beamerposter Info: textwidth=426.79134pt, textheight=227.62204pt on inp
+ut line 174.
+Package beamerposter Info: fontscale=1.0, myfontscale=0.50 on input line 175.
+ ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "12"
+FP debug: upn: calculating "12 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "6.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(6.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "6.00"
+FP debug: upn: +++ result of upn-expression is "(6.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "14"
+FP debug: upn: calculating "14 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "7.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(7.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "7.00"
+FP debug: upn: +++ result of upn-expression is "(7.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "14.4"
+FP debug: upn: calculating "14.4 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "7.200000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(7.200000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "7.20"
+FP debug: upn: +++ result of upn-expression is "(7.20)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "18"
+FP debug: upn: calculating "18 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "9.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(9.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "9.00"
+FP debug: upn: +++ result of upn-expression is "(9.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "17.28"
+FP debug: upn: calculating "17.28 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "8.640000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(8.640000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "8.64"
+FP debug: upn: +++ result of upn-expression is "(8.64)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "22"
+FP debug: upn: calculating "22 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "11.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(11.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "11.00"
+FP debug: upn: +++ result of upn-expression is "(11.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "20.74"
+FP debug: upn: calculating "20.74 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "10.370000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(10.370000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "10.37"
+FP debug: upn: +++ result of upn-expression is "(10.37)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "25"
+FP debug: upn: calculating "25 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "12.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(12.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "12.50"
+FP debug: upn: +++ result of upn-expression is "(12.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "24.88"
+FP debug: upn: calculating "24.88 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "12.440000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(12.440000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "12.44"
+FP debug: upn: +++ result of upn-expression is "(12.44)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "30"
+FP debug: upn: calculating "30 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "15.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(15.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "15.00"
+FP debug: upn: +++ result of upn-expression is "(15.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "29.86"
+FP debug: upn: calculating "29.86 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "14.930000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(14.930000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "14.93"
+FP debug: upn: +++ result of upn-expression is "(14.93)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "37"
+FP debug: upn: calculating "37 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "18.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(18.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "18.50"
+FP debug: upn: +++ result of upn-expression is "(18.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "35.83"
+FP debug: upn: calculating "35.83 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "17.915000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(17.915000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "17.92"
+FP debug: upn: +++ result of upn-expression is "(17.92)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "45"
+FP debug: upn: calculating "45 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "22.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(22.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "22.50"
+FP debug: upn: +++ result of upn-expression is "(22.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "43"
+FP debug: upn: calculating "43 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "21.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(21.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "21.50"
+FP debug: upn: +++ result of upn-expression is "(21.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "54"
+FP debug: upn: calculating "54 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "27.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(27.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "27.00"
+FP debug: upn: +++ result of upn-expression is "(27.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "51.6"
+FP debug: upn: calculating "51.6 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "25.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(25.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "25.80"
+FP debug: upn: +++ result of upn-expression is "(25.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "64"
+FP debug: upn: calculating "64 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "32.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(32.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "32.00"
+FP debug: upn: +++ result of upn-expression is "(32.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "61.92"
+FP debug: upn: calculating "61.92 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "30.960000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(30.960000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "30.96"
+FP debug: upn: +++ result of upn-expression is "(30.96)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "77"
+FP debug: upn: calculating "77 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "38.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(38.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "38.50"
+FP debug: upn: +++ result of upn-expression is "(38.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "74.3"
+FP debug: upn: calculating "74.3 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "37.150000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(37.150000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "37.15"
+FP debug: upn: +++ result of upn-expression is "(37.15)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "93"
+FP debug: upn: calculating "93 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "46.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(46.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "46.50"
+FP debug: upn: +++ result of upn-expression is "(46.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "89.16"
+FP debug: upn: calculating "89.16 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "44.580000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(44.580000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "44.58"
+FP debug: upn: +++ result of upn-expression is "(44.58)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "112"
+FP debug: upn: calculating "112 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "56.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(56.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "56.00"
+FP debug: upn: +++ result of upn-expression is "(56.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "107"
+FP debug: upn: calculating "107 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "53.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(53.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "53.50"
+FP debug: upn: +++ result of upn-expression is "(53.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "134"
+FP debug: upn: calculating "134 mul 0.50"
+( FP-MUL )
+FP debug: upn: result      "67.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(67.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "67.00"
+FP debug: upn: +++ result of upn-expression is "(67.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "labelWidthValue myfontscale * 2 ro
+und"
+FP debug: upn: calculating "labelWidthValue"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "0.50 mul 1"
+( FP-MUL )
+FP debug: upn: result      "0.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.50"
+FP debug: upn: +++ result of upn-expression is "(0.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "labelSepValue myfontscale * 2 roun
+d"
+FP debug: upn: calculating "labelSepValue"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "0.50 mul 1"
+( FP-MUL )
+FP debug: upn: result      "0.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.50"
+FP debug: upn: +++ result of upn-expression is "(0.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValuei myfontscale *
+ 2 round"
+FP debug: upn: calculating "indentionLevelValuei"
+FP debug: upn: result      "4"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "0.50 mul 4"
+( FP-MUL )
+FP debug: upn: result      "2.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(2.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "2.00"
+FP debug: upn: +++ result of upn-expression is "(2.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValueii myfontscale 
+* 2 round"
+FP debug: upn: calculating "indentionLevelValueii"
+FP debug: upn: result      "2.2"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "0.50 mul 2.2"
+( FP-MUL )
+FP debug: upn: result      "1.100000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(1.100000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "1.10"
+FP debug: upn: +++ result of upn-expression is "(1.10)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValueiii myfontscale
+ * 2 round"
+FP debug: upn: calculating "indentionLevelValueiii"
+FP debug: upn: result      "1.87"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "0.50 mul 1.87"
+( FP-MUL )
+FP debug: upn: result      "0.935000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.935000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.94"
+FP debug: upn: +++ result of upn-expression is "(0.94)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "bibIconScaleValue myfontscale * 2 
+round"
+FP debug: upn: calculating "bibIconScaleValue"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.50"
+FP debug: upn: calculating "0.50 mul 2"
+( FP-MUL )
+FP debug: upn: result      "1.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(1.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "1.00"
+FP debug: upn: +++ result of upn-expression is "(1.00)"
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count330
+\U@D=\dimen283
+\l@babelnohyphens=\language86
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/xebabel.def
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read3
+)
+LaTeX Info: Redefining \textlatin on input line 707.
+\bbl@dirlevel=\count331
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-czech/czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count332
+Package babel Info: Making - an active character on input line 226.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2020/10/15 v1.50a Modern multilingual typesetting with XeL
+aTeX and LuaLaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-10-27 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
+\g__graphics_track_int=\count333
+\l__pdf_internal_box=\box78
+\g__pdf_backend_object_int=\count334
+\g__pdf_backend_annotation_int=\count335
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count336
+\l__fontspec_language_int=\count337
+\l__fontspec_strnum_int=\count338
+\l__fontspec_tmp_int=\count339
+\l__fontspec_tmpa_int=\count340
+\l__fontspec_tmpb_int=\count341
+\l__fontspec_tmpc_int=\count342
+\l__fontspec_em_int=\count343
+\l__fontspec_emdef_int=\count344
+\l__fontspec_strong_int=\count345
+\l__fontspec_strongdef_int=\count346
+\l__fontspec_tmpa_dim=\dimen284
+\l__fontspec_tmpb_dim=\dimen285
+\l__fontspec_tmpc_dim=\dimen286
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2020/09/29 v0.8a Hooks for input files
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
+))
+\xpg@normalclass=\XeTeXcharclass1
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/polyglossia/gloss-czech.ldf
+File: gloss-czech.ldf polyglossia: module for czech
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {czech/script}  =>  {latin}
+>  {czech/lcscript}  =>  {latin}
+>  {czech/scripttag}  =>  {}
+>  {czech/language}  =>  {Czech}
+>  {czech/langtag}  =>  {CSY}
+>  {czech/bcp47}  =>  {cz}
+>  {czech/hyphennames}  =>  {czech}
+>  {czech/direction}  =>  {LR}
+>  {czech/hyphenmins}  =>  {2,2}
+>  {czech/frenchspacing}  =>  {true}
+>  {czech/indentfirst}  =>  {false}
+>  {czech/fontsetup}  =>  {true}
+>  {czech/envname}  =>  {czech}
+>  {czech/babelname}  =>  {czech}
+>  {czech/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {czech/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+\czech@hyphen=\XeTeXcharclass2
+\czech@openpunctuation=\XeTeXcharclass3
+\czech@nonsyllabicpreposition=\XeTeXcharclass4
+)
+Package polyglossia Info: Default language is czech.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthememiniframes
+.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
+y) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen287
+\TX@old@table=\dimen288
+\TX@old@col=\dimen289
+\TX@target=\dimen290
+\TX@delta=\dimen291
+\TX@cols=\count347
+\TX@ftn=\toks48
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count348
+\multirow@dima=\skip67
+\bigstrutjot=\dimen292
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count349
+\mult@box=\box79
+\multicol@leftmargin=\dimen293
+\c@unbalance=\count350
+\c@collectmore=\count351
+\doublecol@number=\count352
+\multicoltolerance=\count353
+\multicolpretolerance=\count354
+\full@width=\dimen294
+\page@free=\dimen295
+\premulticols=\dimen296
+\postmulticols=\dimen297
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box80
+\last@line=\box81
+\maxbalancingoverflow=\dimen298
+\mult@rightbox=\box82
+\mult@grightbox=\box83
+\mult@gfirstbox=\box84
+\mult@firstbox=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\c@minrows=\count355
+\c@columnbadness=\count356
+\c@finalcolumnbadness=\count357
+\last@try=\dimen299
+\multicolovershoot=\dimen300
+\multicolundershoot=\dimen301
+\mult@nat@firstbox=\box123
+\colbreak@box=\box124
+\mc@col@check@num=\count358
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count359
+\rotFPtop=\skip70
+\rotFPbot=\skip71
+\rot@float@box=\box125
+\rot@mess@toks=\toks49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count360
+\FV@InFile=\read4
+\FV@TabBox=\box126
+\c@FancyVerbLine=\count361
+\FV@StepNumber=\count362
+\FV@OutFile=\write5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+\linenopenalty=\count363
+\output=\toks50
+\linenoprevgraf=\count364
+\linenumbersep=\dimen302
+\linenumberwidth=\dimen303
+\c@linenumber=\count365
+\c@pagewiselinenumber=\count366
+\c@LN@truepage=\count367
+\c@internallinenumber=\count368
+\c@internallinenumbers=\count369
+\quotelinenumbersep=\dimen304
+\bframerule=\dimen305
+\bframesep=\dimen306
+\bframebox=\box127
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count370
+\c@FV@TrueTabCounter=\count371
+\FV@TabBox@Group=\box128
+\FV@TmpLength=\skip72
+\c@FV@HighlightLinesStart=\count372
+\c@FV@HighlightLinesStop=\count373
+\FV@LoopCount=\count374
+\FV@NCharsBox=\box129
+\FV@BreakIndent=\dimen307
+\FV@BreakIndentNChars=\count375
+\FV@BreakSymbolSepLeft=\dimen308
+\FV@BreakSymbolSepLeftNChars=\count376
+\FV@BreakSymbolSepRight=\dimen309
+\FV@BreakSymbolSepRightNChars=\count377
+\FV@BreakSymbolIndentLeft=\dimen310
+\FV@BreakSymbolIndentLeftNChars=\count378
+\FV@BreakSymbolIndentRight=\dimen311
+\FV@BreakSymbolIndentRightNChars=\count379
+\c@FancyVerbLineBreakLast=\count380
+\FV@LineBox=\box130
+\FV@LineIndentBox=\box131
+\FV@LineWidth=\dimen312
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count381
+\calc@Bcount=\count382
+\calc@Adimen=\dimen313
+\calc@Bdimen=\dimen314
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count383
+\calc@Cskip=\skip75
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "output.w18")...executed.
+
+
+(./output.w18)
+runsystem(rm -- "output.w18")...executed.
+
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count384
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count385
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip76
+\fb@frw=\dimen315
+\fb@frh=\dimen316
+\FrameRule=\dimen317
+\FrameSep=\dimen318
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count386
+\float@exts=\toks51
+\float@box=\box132
+\@float@everytoks=\toks52
+\@floatcapt=\box133
+)
+\minted@appexistsfile=\read5
+\minted@bgbox=\box134
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count387
+\c@minted@pygmentizecounter=\count388
+\@float@every@listing=\toks53
+\c@listing=\count389
+)
+runsystem(mkdir -p _minted-output)...executed.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen319
+\lightrulewidth=\dimen320
+\cmidrulewidth=\dimen321
+\belowrulesep=\dimen322
+\belowbottomsep=\dimen323
+\aboverulesep=\dimen324
+\abovetopsep=\dimen325
+\cmidrulesep=\dimen326
+\cmidrulekern=\dimen327
+\defaultaddspace=\dimen328
+\@cmidla=\count390
+\@cmidlb=\count391
+\@aboverulesep=\dimen329
+\@belowrulesep=\dimen330
+\@thisruleclass=\count392
+\@lastruleclass=\count393
+\@thisrulewidth=\dimen331
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumb
+erbeamer.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/regexpatch/regexpatch.sty
+Package: regexpatch 2020/10/06 v0.2e Extending etoolbox patching commands
+)
+runsystem(which pygmentize && touch output.aex)...executed.
+
+runsystem(rm output.aex)...executed.
+
+
+(./output.aux
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+LaTeX Info: Redefining \rmfamily on input line 27.
+LaTeX Info: Redefining \sffamily on input line 27.
+LaTeX Info: Redefining \ttfamily on input line 27.
+)
+\openout1 = `output.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+2.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 62.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count394
+)
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
+ (./output.out) (./output.out)
+\@outlinefile=\write7
+\openout7 = `output.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 62.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 62.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 62.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 62.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 62.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 62.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 62.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 62.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 62.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \rmfamily on input line 62.
+LaTeX Info: Redefining \sffamily on input line 62.
+LaTeX Info: Redefining \ttfamily on input line 62.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 62.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 62.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 62.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 62.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 62.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 62.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 62.
+LaTeX Font Info:    Redeclaring math accent \check on input line 62.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 62.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 62.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 62.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 62.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 62.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 62.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 62.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/b/n --> TU/lmr/m/n on input line 62.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 62.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  TU/lmss/m/it --> TU/lmr/m/it on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  TU/lmss/b/n --> TU/lmr/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 62.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/lmss/b/it --> TU/lmr/b/it on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 62.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 62.
+ (./output.nav)
+LaTeX Info: Redefining \rmfamily on input line 62.
+LaTeX Info: Redefining \sffamily on input line 62.
+LaTeX Info: Redefining \ttfamily on input line 62.
+ [1
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12.44> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 90.
+LaTeX Font Info:    Calculating math sizes for size <12.44> on input line 90.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8.70796> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 90.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6.22> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 90.
+ [2
+
+]
+File: imgs/Loop1.pdf Graphic file (type pdf)
+<use imgs/Loop1.pdf>
+ [3
+
+]
+File: imgs/Loop2.pdf Graphic file (type pdf)
+<use imgs/Loop2.pdf>
+
+Overfull \vbox (10.2757pt too high) detected at line 122
+ []
+
+[4
+
+] [5
+
+] [6
+
+] [7
+
+]
+File: imgs/tactile.jpg Graphic file (type bmp)
+<imgs/tactile.jpg>
+File: imgs/tactilematrixelectronics.png Graphic file (type bmp)
+<imgs/tactilematrixelectronics.png>
+ [8
+
+]
+File: imgs/rohan1.jpg Graphic file (type bmp)
+<imgs/rohan1.jpg>
+File: imgs/rohan3.jpg Graphic file (type bmp)
+<imgs/rohan3.jpg>
+ [9
+
+] [10
+
+]
+File: imgs/app.pdf Graphic file (type pdf)
+<use imgs/app.pdf>
+
+Overfull \vbox (20.59651pt too high) detected at line 254
+ []
+
+[11
+
+] [12
+
+]
+File: imgs/metacity.png Graphic file (type bmp)
+<imgs/metacity.png>
+
+Overfull \vbox (8.19199pt too high) detected at line 270
+ []
+
+[13
+
+]
+File: imgs/metacity0.png Graphic file (type bmp)
+<imgs/metacity0.png>
+File: imgs/webPrototype2.png Graphic file (type bmp)
+<imgs/webPrototype2.png>
+ [14
+
+]
+File: imgs/editorDemo2.pdf Graphic file (type pdf)
+<use imgs/editorDemo2.pdf>
+ [15
+
+]
+\openout4 = `output.vrb'.
+
+ (./output.vrb
+\openout5 = `output.pyg'.
+
+ (./_minted-output/default-pyg-prefix.pygstyle)
+(./_minted-output/default.pygstyle)
+(./_minted-output/EEF5825B2C6A55461D4A1AF08AA07BDB892E08A2813E0BC691089078ED444
+FE6.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.44> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
+)) [16
+
+] [17
+
+] [18
+
+] [19
+
+]
+\tf@nav=\write8
+\openout8 = `output.nav'.
+
+\tf@toc=\write9
+\openout9 = `output.toc'.
+
+\tf@snm=\write10
+\openout10 = `output.snm'.
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {czech/script}  =>  {latin}
+>  {czech/lcscript}  =>  {latin}
+>  {czech/scripttag}  =>  {}
+>  {czech/language}  =>  {Czech}
+>  {czech/langtag}  =>  {CSY}
+>  {czech/bcp47}  =>  {cz}
+>  {czech/hyphennames}  =>  {czech}
+>  {czech/direction}  =>  {LR}
+>  {czech/hyphenmins}  =>  {2,2}
+>  {czech/frenchspacing}  =>  {true}
+>  {czech/indentfirst}  =>  {false}
+>  {czech/fontsetup}  =>  {true}
+>  {czech/envname}  =>  {czech}
+>  {czech/babelname}  =>  {czech}
+>  {czech/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {czech/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+ (./output.aux
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+LaTeX Info: Redefining \rmfamily on input line 27.
+LaTeX Info: Redefining \sffamily on input line 27.
+LaTeX Info: Redefining \ttfamily on input line 27.
+)
+
+Package rerunfilecheck Warning: File `output.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `output.out':
+(rerunfilecheck)             Before: 7277E4F992C03F27666D56EA0187A256;268
+(rerunfilecheck)             After:  43CAB16110155DA2172AD52550FCC8F7;207.
+runsystem(rm output.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 29482 strings out of 477401
+ 590296 string characters out of 5835145
+ 1059636 words of memory out of 5000000
+ 48294 multiletter control sequences out of 15000+600000
+ 540277 words of font info for 70 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 125i,19n,126p,512b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on output.pdf (19 pages).

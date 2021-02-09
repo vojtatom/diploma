@@ -1,0 +1,19 @@
+Modularity and extensibility with Python plugins
+^^I^^I\begin{overprint}
+^^I^^I^^I\onslide<1>
+^^I^^I^^I
+^^I^^I\begin{minted}[
+^^I^^I^^Ilinenos,
+^^I^^I^^Inumbersep=5pt,
+^^I^^I^^Igobble=0,
+^^I^^I^^Iframe=lines,
+^^I^^I^^Iframesep=2mm]{python}
+from parameters import param, output
+
+@param('a', 'number') #(first input parameter name, type)
+@param('b', 'number') #(second input parameter name, type)
+@output('sum', 'number') #(first output parameter name, type)
+def call(a, b):
+    return a + b
+^^I^^I\end{minted}
+^^I^^I\end{overprint}
